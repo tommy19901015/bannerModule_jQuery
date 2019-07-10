@@ -1,0 +1,52 @@
+body {
+  font-family: Microsoft JhengHei;
+}
+
+body .banner {
+  width: 1200px;
+  height: 380px;
+  position: relative;
+}
+
+body .banner.opened {
+  height: 380px;
+}
+
+body .banner.opening {
+  height: 380px;
+  overflow: hidden;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+}
+
+body .banner.closing {
+  height: 50px;
+  overflow: hidden;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+}
+
+body .banner.closed {
+  height: 50px;
+  overflow: hidden;
+}
+
+body .banner a {
+  display: inline-block;
+}
+
+body .banner a .img {
+  width: 100%;
+}
+
+body .banner .btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+/*# sourceMappingURL=banner.css.map */
